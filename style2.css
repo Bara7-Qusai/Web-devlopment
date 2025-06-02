@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f5f5f5;
+  }
+  
+  
+  .controls label {
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  #clearCart {
+    padding: 5px 10px;
+    background: rgb(246, 13, 59);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+    h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 8px rgba(2, 2, 2, 0.1);
+  }
+  
+  thead {
+    background-color: #9aff76;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  tfoot {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+/* Make td content flex to control layout */
+td.product-cell {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 12px;
+  }
+  
+  /* Image on the left, fixed size */
+  .product-img {
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  
+  /* Title takes the rest of the space */
+  .product-title {
+    flex-grow: 1;
+    font-weight: bold;
+  }

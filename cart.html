@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style2.css" />
+  <script src="data.js" defer></script>
+  <script src="cart.js" defer></script>
+</head>
+<body>
+  <h1>Shopping Cart</h1>
+
+  <div class="controls">
+    <label>Tax Rate (%): <input type="number" id="taxRate" value="10" /></label>
+    <label>Shipping Threshold: <input type="number" id="shippingThreshold" value="1000" /></label>
+    <button id="clearCart">Clear Cart</button>
+  </div>
+
+  <table id="cart-table">
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>#</th>
+        <th>Price</th>
+        <th>Amount</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="cart-body"></tbody>
+    <tfoot>
+      <tr><td colspan="3">Subtotal</td><td id="subtotal">$0.00</td><td></td></tr>
+      <tr><td colspan="3">Tax</td><td id="tax">$0.00</td><td></td></tr>
+      <tr><td colspan="3">Shipping</td><td id="shipping">$0.00</td><td></td></tr>
+      <tr><td colspan="3"><strong>Grand Total</strong></td><td id="grand-total"><strong>$0.00</strong></td><td></td></tr>
+    </tfoot>
+  </table>
+</body>
+</html>
