@@ -1,0 +1,86 @@
+[
+  {
+    "date": "2021-01-01",
+    "ice_cream_type": 1,
+    "topping": 1,
+    "location": 1
+  },
+  {
+    "date": "2021-01-01",
+    "ice_cream_type": 2,
+    "topping": 1,
+    "location": 2
+  },
+  {
+    "date": "2021-01-01",
+    "ice_cream_type": 1,
+    "topping": 2,
+    "location": 2
+  },
+  {
+    "date": "2021-01-01",
+    "ice_cream_type": 3,
+    "topping": 1,
+    "location": 1
+  },
+  {
+    "date": "2021-01-01",
+    "ice_cream_type": 1,
+    "topping": 2,
+    "location": 2
+  },
+  {
+    "date": "2021-01-01",
+    "ice_cream_type": 1,
+    "topping": 2,
+    "location": 2
+  },
+  {
+    "date": "2021-01-01",
+    "ice_cream_type": 1,
+    "topping": 1,
+    "location": 1
+  },
+  {
+    "date": "2021-01-02",
+    "ice_cream_type": 1,
+    "topping": 1,
+    "location": 1
+  },
+  {
+    "date": "2021-01-02",
+    "ice_cream_type": 3,
+    "topping": 3,
+    "location": 1
+  },
+  {
+    "date": "2021-01-02",
+    "ice_cream_type": 3,
+    "topping": 2,
+    "location": 2
+  },
+  {
+    "date": "2021-01-02",
+    "ice_cream_type": 2,
+    "topping": 3,
+    "location": 2
+  },
+  {
+    "date": "2021-01-02",
+    "ice_cream_type": 2,
+    "topping": 3,
+    "location": 2
+  },
+  {
+    "date": "2021-01-02",
+    "ice_cream_type": 3,
+    "topping": 1,
+    "location": 1
+  },
+  {
+    "date": "2021-01-02",
+    "ice_cream_type": 1,
+    "topping": 2,
+    "location": 2
+  }
+]
